@@ -1,0 +1,1 @@
+DELETE from car where year = 1993;
