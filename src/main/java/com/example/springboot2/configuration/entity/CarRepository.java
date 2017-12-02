@@ -1,4 +1,4 @@
-package com.example.springboot2.entity;
+package com.example.springboot2.configuration.entity;
 
 import org.springframework.data.repository.CrudRepository;
 

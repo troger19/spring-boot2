@@ -1,6 +1,6 @@
-package com.example.springboot2;
+package com.example.springboot2.configuration;
 
-import com.example.springboot2.entity.CarRepository;
+import com.example.springboot2.configuration.entity.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -12,6 +12,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
+/**
+ * Spring Boot application for configuration and Spring-Data example
+ */
 @SpringBootApplication
 @EnableConfigurationProperties
 public class SpringBoot2Application {
