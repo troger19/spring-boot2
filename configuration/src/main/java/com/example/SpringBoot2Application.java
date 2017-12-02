@@ -1,6 +1,6 @@
-package com.example.springboot2.configuration;
+package com.example;
 
-import com.example.springboot2.configuration.entity.CarRepository;
+//import com.example.springboot2.configuration.entity.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -43,10 +43,10 @@ public class SpringBoot2Application {
 		System.out.println("The project name from configuration properties " + configurationProjectProperties.getProjectName());
 	}
 
-	@Bean
-	CommandLineRunner exampleQuery(CarRepository repository){
-		return args->repository.findByMakeIgnoringCase("HONDA").forEach(System.out::println);
-	}
+//	@Bean
+//	CommandLineRunner exampleQuery(CarRepository repository){
+//		return args->repository.findByMakeIgnoringCase("HONDA").forEach(System.out::println);
+//	}
 
 	// this Bean represent the configuration object as defined in application.yml
 	@Component
