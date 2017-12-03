@@ -12,7 +12,6 @@ import java.util.Optional;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class GreetingsServiceApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(GreetingsServiceApplication.class, args);
     }
