@@ -9,10 +9,11 @@
     <packaging>pom</packaging>
 
     <modules>
-    <module>elastic-search</module>
-    <module>data-rest</module>
-	  <module>rest-errors</module>
+        <module>elastic-search</module>
+        <module>data-rest</module>
+        <module>rest-errors</module>
         <module>configuration</module>
+        <module>eureka</module>
     </modules>
 
     <name>spring-boot2</name>
@@ -57,8 +58,8 @@
         </dependency>
 
         <!--<dependency>-->
-            <!--<groupId>org.flywaydb</groupId>-->
-            <!--<artifactId>flyway-core</artifactId>-->
+        <!--<groupId>org.flywaydb</groupId>-->
+        <!--<artifactId>flyway-core</artifactId>-->
         <!--</dependency>-->
 
         <dependency>
@@ -73,14 +74,13 @@
         </dependency>
 
         <!--<dependency>-->
-            <!--<groupId>redis.clients</groupId>-->
-            <!--<artifactId>jedis</artifactId>-->
+        <!--<groupId>redis.clients</groupId>-->
+        <!--<artifactId>jedis</artifactId>-->
         <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
 
 
     </dependencies>
